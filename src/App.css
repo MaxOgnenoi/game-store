@@ -12,3 +12,19 @@
   --second: #0998a8;
   --bgColor: #192938;
 }
+
+h1,
+h2,
+h4,
+p {
+  color: #ffffff
+}
+
+body {
+  position: relative;
+  background: var(--bgColor);
+  font-family: 'Roboto', 'sans-serif';
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
