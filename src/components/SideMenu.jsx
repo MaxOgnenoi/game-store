@@ -13,7 +13,7 @@ function SideMenu() {
       </a>
       <ul className="nav">
         {navData.map((item) => (
-          <NavListItem />
+          <NavListItem key={item._id} item={item} />
         ))}
       </ul>
     </div>

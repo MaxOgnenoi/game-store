@@ -1,10 +1,10 @@
 import React from "react";
 
-function NavListItem() {
+function NavListItem({ item }) {
   return (
     <li>
       <a href="#">
-        <i className="bi bi-house-door"></i> Home
+        <i className={`bi ${item.icon}`}></i> {item.name}
       </a>
     </li>
   );
