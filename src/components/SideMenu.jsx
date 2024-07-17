@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./sideMenu.css";
+import navListData from "../data/navListData";
+import NavListItem from "./NavListItem";
 
 function SideMenu() {
+  const [navData, setNavData] = useState(navListData);
   return (
     <div className="sideMenu">
       <a href="#" className="logo">
@@ -9,7 +12,9 @@ function SideMenu() {
         <span className="brand">Play</span>
       </a>
       <ul className="nav">
-        
+        {navData.map((item) => (
+          <NavListItem />
+        ))}
       </ul>
     </div>
   );
