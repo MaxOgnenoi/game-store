@@ -11,3 +11,17 @@
     flex-direction: column;
     transition: 1s;
 }
+
+.sideMenu .logo {
+    font-family: 'Bauhaus 93';
+    position: relative;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    color: #ffffff;
+    font-size: 3.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
