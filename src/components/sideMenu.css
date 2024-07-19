@@ -64,3 +64,27 @@
     gap: 20px;
     transition: 0.5s;
 }
+
+.sideMenu .social li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.sideMenu .social li a:hover {
+    color: var(--second);
+}
+
+.sideMenu .social li .share {
+    background: var(--second);
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.sideMenu .social li .share:hover {
+    background: var(--primary);
+}

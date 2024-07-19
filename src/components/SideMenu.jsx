@@ -16,6 +16,28 @@ function SideMenu() {
           <NavListItem key={item._id} item={item} />
         ))}
       </ul>
+      <ul className="social">
+        <li>
+          <a href="#">
+            <i className="bi bi-meta"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i className="bi bi-twitter-x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i className="bi bi-youtube"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" className="share">
+            <i className="bi bi-share"></i>
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }
