@@ -19,7 +19,7 @@ function Header() {
         </a>
         <div className="avatar">
           <a href="#">
-            <img src="" alt="User Image" />
+            <img src={userImg} alt="User Image" />
           </a>
           <div className="user">
             <span>User Name</span>
