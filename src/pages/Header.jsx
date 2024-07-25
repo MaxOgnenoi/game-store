@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import userImg from "../images/My project-1 (1).png";
 
 function Header() {
   return (
@@ -10,11 +11,21 @@ function Header() {
       <div className="userItems">
         <a href="#" className="icon">
           <i class="bi bi-heart-fill"></i>
-          <span className="like"></span>
+          <span className="like">0</span>
         </a>
         <a href="#" className="icon">
           <i class="bi bi-bag-fill"></i>
+          <span className="bag">0</span>
         </a>
+        <div className="avatar">
+          <a href="#">
+            <img src="" alt="User Image" />
+          </a>
+          <div className="user">
+            <span>User Name</span>
+            <a href="#">View Profile</a>
+          </div>
+        </div>
       </div>
     </header>
   );
