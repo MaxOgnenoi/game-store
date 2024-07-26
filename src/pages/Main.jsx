@@ -12,8 +12,8 @@ function Main() {
   return (
     <main>
       <SideMenu active={active} />
-      <div className="banner">
-        <Header />
+      <div className={`banner ${active ? "active" : undefined}`}>
+        <Header toggleActive={handleToggleActive} />
       </div>
     </main>
   );
