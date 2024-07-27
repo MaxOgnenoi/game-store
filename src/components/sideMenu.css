@@ -88,3 +88,11 @@
 .sideMenu .social li .share:hover {
     background: var(--primary);
 }
+
+.sideMenu.active {
+    width: 7%;
+    transition: 1s;
+    overflow: hidden;
+    align-items: center;
+}
+
