@@ -96,3 +96,18 @@
     align-items: center;
 }
 
+.sideMenu.active .brand,
+.sideMenu.active .navName {
+    display: none;
+}
+
+.sideMenu.active .nav li a {
+    font-size: 1.8em;
+}
+
+.sideMenu.active .social {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
