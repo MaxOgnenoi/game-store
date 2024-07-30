@@ -1,0 +1,15 @@
+[
+  {
+    "_id": 1,
+    "title": "League Of Legends",
+    "description": "Lorem ipsum dolor sit amet consectetur adibipisicing elit. Odio non nobis, molestiae eum qui",
+    "level": "Median",
+    "category": "MOBA",
+    "rating": 3,
+    "discount": 0.5,
+    "price": 79.0,
+    "img": "./assets/games/lol-bg.jpeg",
+    "trailer": "https://www.youtube.com/embed/vzHrjOMfHPY",
+    "active": true
+  }
+]
