@@ -11,5 +11,18 @@
     "img": "./assets/games/lol-bg.jpeg",
     "trailer": "https://www.youtube.com/embed/vzHrjOMfHPY",
     "active": true
+  },
+  {
+    "_id": 2,
+    "title": "Mario Kart 8 Deluxe",
+    "description": "Lorem ipsum dolor sit amet consectetur adibipisicing elit. Odio non nobis, molestiae eum qui",
+    "level": "Entry",
+    "category": "Racing",
+    "rating": 3,
+    "discount": 0.3,
+    "price": 52.56,
+    "img": "./assets/games/mario-bg.jpeg",
+    "trailer": "https://www.youtube.com/embed/tKlRN2YpxRE",
+    "active": false
   }
 ]
