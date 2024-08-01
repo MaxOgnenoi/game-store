@@ -63,5 +63,44 @@
     "img": "./assets/games/forza-horizon-5-bg.jpeg",
     "trailer": "https://www.youtube.com/embed/FYH9n37B7Yw",
     "active": false
+  },
+  {
+    "_id": 6,
+    "title": "Halo Infinite",
+    "description": "Lorem ipsum dolor sit amet consectetur adibipisicing elit. Odio non nobis, molestiae eum qui",
+    "level": "Median",
+    "category": "Battle",
+    "rating": 4,
+    "discount": 0,
+    "price": 85.8,
+    "img": "./assets/games/halo-infinite-bg.jpeg",
+    "trailer": "https://www.youtube.com/embed/PyMlV5_HRWk",
+    "active": false
+  },
+  {
+    "_id": 7,
+    "title": "Fortnite Spider-Man",
+    "description": "Lorem ipsum dolor sit amet consectetur adibipisicing elit. Odio non nobis, molestiae eum qui",
+    "level": "Entry",
+    "category": "Battle",
+    "rating": 3,
+    "discount": 0.6,
+    "price": 69.0,
+    "img": "./assets/games/fortnite-bg.jpeg",
+    "trailer": "https://www.youtube.com/embed/7bq0Boq2B3Y",
+    "active": false
+  },
+  {
+    "_id": 8,
+    "title": "Diablo III",
+    "description": "Lorem ipsum dolor sit amet consectetur adibipisicing elit. Odio non nobis, molestiae eum qui",
+    "level": "High",
+    "category": "RPG",
+    "rating": 5,
+    "discount": 0.5,
+    "price": 99.0,
+    "img": "./assets/games/diablo-3-bg.jpeg",
+    "trailer": "https://www.youtube.com/embed/M2TpNQhfkp4",
+    "active": false
   }
 ]
