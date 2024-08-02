@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./main.css";
 import SideMenu from "../components/SideMenu";
 import Header from "./Header";
@@ -21,13 +21,17 @@ function Main() {
       .catch((e) => console.log(e.message));
   };
 
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <main>
       <SideMenu active={active} />
       <div className={`banner ${active ? "active" : undefined}`}>
         <Header toggleActive={handleToggleActive} />
         <div className="container-fluid">
-          <Home />
+          <Home games={games} />
         </div>
       </div>
     </main>
