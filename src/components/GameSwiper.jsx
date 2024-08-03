@@ -33,6 +33,18 @@ function GameSwiper({ games }) {
         <SwiperSlide key={game._id}>
           <div className="gameSlider">
             <img src={game.img} alt="Game Image" />
+            <div className="content">
+              <h2>{game.title}</h2>
+              <p>{game.description}</p>
+              <div className="buttons">
+                <a href="#" className="orderBtn">
+                  Order Now
+                </a>
+                <a href="#" className="playBtn">
+                  <span className="pause"></span>
+                </a>
+              </div>
+            </div>
           </div>
         </SwiperSlide>
       ))}
