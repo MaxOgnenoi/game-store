@@ -31,7 +31,9 @@ function GameSwiper({ games }) {
     >
       {games.map((game) => (
         <SwiperSlide key={game._id}>
-          <div className="gameSlider"></div>
+          <div className="gameSlider">
+            <img src={game.img} alt="Game Image" />
+          </div>
         </SwiperSlide>
       ))}
     </Swiper>
